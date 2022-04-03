@@ -14,6 +14,10 @@ def bash_table():
     return sample_data
 
 
+def test_should_always_pass():
+    assert 2 + 2 == 4
+
+
 def test_should_create_bashtable():
     assert BashTable(capacity=100) is not None
 
